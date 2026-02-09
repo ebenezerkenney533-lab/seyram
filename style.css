@@ -1,0 +1,78 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(pictures/جراحة.jfif));
+    color: #333;
+}
+
+/* Navigation Bar */
+nav {
+    background: #2a9d8f; /* hospital green/blue */
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: lightblue;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background: #264653;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* Responsive Layout */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+}
+
+/* Cards for Services */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 250px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
